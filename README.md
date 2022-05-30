@@ -1,6 +1,6 @@
 # vagrant-irc-server
 
-Automated Vagrant installer for VirtualBox Virtual Machine with Ubuntu LTS and running an InspIRCd service on it.
+Automated Vagrant installer for VirtualBox Virtual Machine with Ubuntu LTS and an InspIRCd service on it.
 
 Put the Vagrantfile and inspircd.conf to the same folder, wich will be your VM-s folder.
 Edit the inspircd.conf configuration file.
