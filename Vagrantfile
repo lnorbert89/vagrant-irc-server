@@ -66,7 +66,7 @@ Vagrant.configure("2") do |config|
    config.vm.provision "shell", inline: <<-SHELL
 	 sudo apt update
 	 sudo apt install git perl g++ make -y
-     sudo adduser --disabled-password --gecos "" ircd
+     	 sudo adduser --disabled-password --gecos "" ircd
 	 sudo chmod 700 /home/ircd/
 	 sudo chown -R ircd /home/ircd
 	 cd /tmp/
