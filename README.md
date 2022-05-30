@@ -1,6 +1,11 @@
 # vagrant-irc-server
 
-Automated Vagrant installer on VirtualBox Virtual Machine with Ubuntu LTS and running an InspIRCd service on it.
+Automated Vagrant installer for VirtualBox Virtual Machine with Ubuntu LTS and running an InspIRCd service on it.
 
-Edit the inspircd.conf file before you run this script.
+Put the Vagrantfile and inspircd.conf to the same folder, wich will be your VM-s folder.
+Edit the inspircd.conf configuration file.
 If you change the default port in the inspircd.conf, be sure you changed the forwarded port in the Vagrantfile to the same.
+
+Run ```vagrant up``` command from the same folder in your CLI.
+
+
