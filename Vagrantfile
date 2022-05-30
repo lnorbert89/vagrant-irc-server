@@ -82,6 +82,6 @@ Vagrant.configure("2") do |config|
 	 sed -i '/<die value/d' /home/ircd/irc/run/conf/inspircd.conf
 	 su ircd
 	 cd /home/ircd/irc
-	 ./inspircd
+	 ./inspircd start
    SHELL
 end
